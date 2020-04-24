@@ -1,3 +1,4 @@
+#The method checks the equality of the three variables passed to this method
 def ParameterEquality(first, second, third):
     intFirst = int(first)
     intSecond = int(second)
@@ -9,3 +10,4 @@ def ParameterEquality(first, second, third):
         return False
 
 print(ParameterEquality(1,"1", 3))
+
